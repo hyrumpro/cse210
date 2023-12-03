@@ -391,7 +391,7 @@ class Program
 
     if (selectedGoal != null)
     {
-        manager.RecordEvent(selectedGoal); // This part remains unchanged.
+        manager.RecordEvent(selectedGoal); 
     }
     else
     {

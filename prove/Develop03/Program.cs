@@ -118,7 +118,7 @@ class Scripture
             }
             else
             {
-                visibleWords.Add("___"); // Placeholder for hidden words
+                visibleWords.Add("___"); 
             }
         }
         return string.Join(" ", visibleWords);
@@ -139,7 +139,6 @@ class ScriptureLibrary
 
     private void InitializeScriptures()
     {
-        // Add your scriptures here or load them from a file/database
         Reference ref1 = new Reference(3, 16);
         Reference ref2 = new Reference(3, 5, 6);
         string text = "For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life.";
@@ -150,7 +149,6 @@ class ScriptureLibrary
 
         scriptures.Add(scripture1);
         scriptures.Add(scripture2);
-        // Add more scriptures as needed
     }
 
     public void PresentRandomScripture()
